@@ -1,0 +1,12 @@
+# ── Existing dependencies (unchanged) ─────────────────────────────────────────
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+matplotlib==3.11.1
+scikit-learn
+seaborn
+pyautogui
+pillow
+
+# ── New dependencies for Biometric-Gated Engine ────────────────────────────────
+pytest>=7.0          # automated tests

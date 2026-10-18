@@ -1,0 +1,34 @@
+GESTURE RECOGNITION — TRAINING REPORT
+============================================================
+
+Dataset : data/gesture_data.npz
+Samples : 500
+Classes : 10
+
+MODEL COMPARISON
+------------------------------------------------------------
+Model                  Test Acc    CV Mean     CV Std
+------------------------------------------------------------
+Random Forest             96.0%      98.2%       2.2%
+SVM (RBF)                 95.0%      95.4%       1.9%
+MLP (Deep NN)             94.0%      96.8%       1.6%
+
+
+DETAILED CLASSIFICATION REPORT (Best Model)
+============================================================
+              precision    recall  f1-score   support
+
+       Start       1.00      1.00      1.00        10
+        Stop       1.00      0.80      0.89        10
+   Turn Left       1.00      1.00      1.00        10
+  Turn Right       1.00      1.00      1.00        10
+      Upward       0.83      1.00      0.91        10
+    Downward       1.00      1.00      1.00        10
+     Turn Up       1.00      1.00      1.00        10
+   Turn Down       1.00      1.00      1.00        10
+        Grab       0.83      1.00      0.91        10
+     Release       1.00      0.80      0.89        10
+
+    accuracy                           0.96       100
+   macro avg       0.97      0.96      0.96       100
+weighted avg       0.97      0.96      0.96       100
